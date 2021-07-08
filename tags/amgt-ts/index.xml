@@ -9,20 +9,20 @@
     <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
     <lastBuildDate>Thu, 08 Jul 2021 08:39:10 +0800</lastBuildDate><atom:link href="https://plantdna.github.io/tags/amgt-ts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Terminal version</title>
-      <link>https://plantdna.github.io/post/terminal/</link>
+      <title>Command line version</title>
+      <link>https://plantdna.github.io/post/command-line/</link>
       <pubDate>Thu, 08 Jul 2021 08:39:10 +0800</pubDate>
       <author>youremail@domain.com (Maize Research Center)</author>
-      <guid>https://plantdna.github.io/post/terminal/</guid>
+      <guid>https://plantdna.github.io/post/command-line/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ONLINE version</title>
-      <link>https://plantdna.github.io/post/online/</link>
+      <title>Web-based version</title>
+      <link>https://plantdna.github.io/post/web-based/</link>
       <pubDate>Wed, 15 Jul 2020 22:39:10 +0800</pubDate>
       <author>youremail@domain.com (Maize Research Center)</author>
-      <guid>https://plantdna.github.io/post/online/</guid>
+      <guid>https://plantdna.github.io/post/web-based/</guid>
       <description></description>
     </item>
     

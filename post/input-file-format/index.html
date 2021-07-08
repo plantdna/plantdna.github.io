@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>AMGT-TS - System Manuals</title>
+  <title>AMGT-TS input file format - System Manuals</title>
   <meta name="description" content="An Accurate and Ultra-deep Coverage Method for Large-scale SSR Genotyping with SNPs in the SSR and Flanking Region Compatible">
   <meta name="author" content="Maize Research Center"/><script type="application/ld+json">
 {
@@ -44,8 +44,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/plantdna.github.io\/post\/amgt-ts\/",
-          "name": "A m g t t s"
+          "@id": "https:\/\/plantdna.github.io\/post\/input-file-format\/",
+          "name": "A m g t t s input file format"
         }
     }]
 }
@@ -56,15 +56,15 @@
   "author": {
     "name" : "Huoyongxue"
   },
-  "headline": "AMGT-TS",
+  "headline": "AMGT-TS input file format",
   "description" : "",
   "inLanguage" : "en",
-  "wordCount":  52 ,
+  "wordCount":  332 ,
   "datePublished" : "2021-07-08T10:08:10",
   "dateModified" : "2021-07-08T10:08:10",
   "image" : "https:\/\/plantdna.github.io\/img\/avatar-icon.png",
   "keywords" : [ "Summary" ],
-  "mainEntityOfPage" : "https:\/\/plantdna.github.io\/post\/amgt-ts\/",
+  "mainEntityOfPage" : "https:\/\/plantdna.github.io\/post\/input-file-format\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/plantdna.github.io\/",
@@ -78,14 +78,14 @@
 }
 </script>
 
-<meta property="og:title" content="AMGT-TS" />
+<meta property="og:title" content="AMGT-TS input file format" />
 <meta property="og:description" content="An Accurate and Ultra-deep Coverage Method for Large-scale SSR Genotyping with SNPs in the SSR and Flanking Region Compatible">
 <meta property="og:image" content="https://plantdna.github.io/img/avatar-icon.png" />
-<meta property="og:url" content="https://plantdna.github.io/post/amgt-ts/" />
+<meta property="og:url" content="https://plantdna.github.io/post/input-file-format/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="System Manuals" />
 
-  <meta name="twitter:title" content="AMGT-TS" />
+  <meta name="twitter:title" content="AMGT-TS input file format" />
   <meta name="twitter:description" content="An Accurate and Ultra-deep Coverage Method for Large-scale SSR Genotyping with SNPs in the SSR and Flanking Region Compatible">
   <meta name="twitter:image" content="https://plantdna.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
@@ -256,7 +256,7 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <div class="post-heading">
-                <h1>AMGT-TS</h1>
+                <h1>AMGT-TS input file format</h1>
                   
                     
                       <h2 class="post-subheading">An Accurate and Ultra-deep Coverage Method for Large-scale SSR Genotyping with SNPs in the SSR and Flanking Region Compatible</h2>
@@ -269,13 +269,13 @@
   <i class="fas fa-calendar"></i>&nbsp;
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;52&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;332&nbsp;words
   
   
-  &nbsp;&bull;&nbsp;Other languages: <a href="https://plantdna.github.io/zh-cn/post/amgt-ts/" lang="zh-cn">zh-cn</a>
+  
 </span>
 
 
@@ -293,7 +293,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>AMGT-TS</h1>
+                <h1>AMGT-TS input file format</h1>
               
               
               
@@ -308,13 +308,13 @@
   <i class="fas fa-calendar"></i>&nbsp;
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;52&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;332&nbsp;words
   
   
-  &nbsp;&bull;&nbsp;Other languages: <a href="https://plantdna.github.io/zh-cn/post/amgt-ts/" lang="zh-cn">zh-cn</a>
+  
 </span>
 
 
@@ -332,9 +332,68 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="amgt-ts-user-manual">AMGT-TS User manual</h1>
-<p>We provided two methods to use our tool. One is the online version, the other is the terminal version. So we offer two guides for each method. The guide for the web-based version can be found
-<a href="/post/web-based/">here</a>, and the guide for the command line version can be found <a href="/post/command-line/">here</a>.</p>
+        <h1 id="input-file-format">Input file format</h1>
+<h2 id="sequencing-raw-data-file">Sequencing raw data file</h2>
+<p>The tool needs two type of input: one is the FASTQ file, the other is the information files of the markers. Information about FASTQ file type can be found on <a href="https://sapac.support.illumina.com/bulletins/2016/04/fastq-files-explained.html">illumina</a>, or on <a href="https://en.wikipedia.org/wiki/FASTQ_format">wikipedia</a>.</p>
+<p><a href="/data/sample15.fq">Sequencing raw data file example</a></p>
+<h2 id="information-files-of-the-markers">Information files of the markers</h2>
+<p>There are two files for the markers:</p>
+<ol>
+<li>Sequence file about the markers, <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.amplicon.fa">example on github</a> as:</li>
+</ol>
+<blockquote>
+<p>s258878
+CGGGCTGTTACTGTGACTCTGTCAGCTGGCTTTCGATTCTGATAAATGAAATAGGGAGATCTGGTGCAGAATCACTTCGATCGATTCGACTCAAGCAGTATCAGTTTACAGATTCCGTTCCGTTTTGCAAATCCAGGGCTAACATCTACGTTACAAATCAGTAAGCCAAAGTAAAGTGAAAAAGAAAAGGTTTTAGCTGTACTAGTCAGTTCTCAGTTAACTGTGCCTTGATCTGTTTGCCAGCTGGGGCAAGATTTCTTCGGTGCCTGCACCCTTTCTCTTGCGGTTGTTTATGCTATCgctgctgctgctgctGATTGTGGGGTTCCTGCGTTCGCCACTGTGACTGTCACTTTGCTGGTGCTGTTCCTGGTTGCATCTGCTTTTCAGTATGTGGGGCTTGAGCTTGTTCATGTCTGATAGCCGCACAGGTTTTAGGAAGAACTCGTCAGCTCCTTCCTCCAGGCACCTGGTTCAGAATTTCAAAACCAGGATTGTTAGTTTTCTCTCTCTCCCGTTGATCATATATAGAGCATCATATATATGCTGTTAAAAGACAAGTCTTGCAACTTGTGTTTTTTTATATATTTTTATTTTTGGATATGTCATATCTTA
+s282049
+TATTCTTCCGGAGGAGGGAGAGACCGATCATGGGTCAGCGTCACCATGGTTGGAACAAAGTCCCCGGATTGGATTGGATTGGATCTCAGTATACATGAGACATGCATGAGAAGCCCCCCCCTACCCCTTTTTTCTTCTTTTTTTTTCTTTTTCACTACTACTACTAGTATTTCTCTTTTTTTTCTAGCTTGTTTTTCACCTTTACTTTCTTTGGACAAAGAGGGGGAAAAAGAAGCAACTTCCTTGAAGGCGAAGGTAGGTATAGTAGTAATTATCAATAGTGGTGGGCATAAGACATGAtggtggtggtggtggTTCATGGGGTTTATAGTAAGGAGTAGCTCAAGAAGGGTGGCTCTCATGGCTCCCCCCTTCTTGTTGCTCCACAATGTGATGATGGTATGGAGGTGGCATGGTAGAAAAGCTTGGTGAATCTCAATGTGCTTTCGAGTGCCGTGTCTGTCCCTAGTGGAATGGAATGTCTCTGGTGTCCCCCCGTTCATTTTTTTTAATCTTTATGGCTTTCTGCATGCTCATCGGATCACCAGATTAAAATTTAGAAGTTGAATTTTAGGTTAGACTTTGTATGTTCAAAGAGCACCCGATAAAAATCTA</p>
+</blockquote>
+<p>This is in fact a FASTA file format(<a href="https://en.wikipedia.org/wiki/FASTA_format),">https://en.wikipedia.org/wiki/FASTA_format),</a> each sequence correspond a marker. The SSR region in the sequence marks as lower case bases, and blanks are marker as upper case bases.</p>
+<ol start="2">
+<li>Stats information about the markers, example as <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:">https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:</a></li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">#ID SSR.No Motif_len Motif Repeat_times Start End Repeat_len Seq_len
+s258878 1 3 GCT 5 301 315 15 615
+s282049 1 3 TGG 5 301 315 15 615
+</code></pre></div><p>It has 9 columns, meaning as:</p>
+<ul>
+<li>
+<p>2.1 #ID
+The marker id, same as the marker&rsquo;s name in the Sequence file of the markers.</p>
+</li>
+<li>
+<p>2.2 SSR.No
+The motif index of the marker. We support multi-motif in one SSR region. But for the common use case, the value of this column is always 1.</p>
+</li>
+<li>
+<p>2.3 Motif_len
+The bases count of the motif.</p>
+</li>
+<li>
+<p>2.4 Motif
+Thre repeat unit of the marker.</p>
+</li>
+<li>
+<p>2.5 Repeat_times
+The repeat times of the motif in this marker.</p>
+</li>
+<li>
+<p>2.6 Start
+The start base position of the SSR region in the sequence of the marker. From the first base to position Start -1, is the left flank of the marker.</p>
+</li>
+<li>
+<p>2.7 End
+The end base position of the SSR region in the sequence of the marker. From End +1 to the last bases of the marker, if the right flank of the marker.</p>
+</li>
+<li>
+<p>2.8 Repeat_len
+The result of column #3 (Motif_len) times column #5 (Repeat_times)</p>
+</li>
+<li>
+<p>2.9 Seq_len
+The length of the sequence, is the bases count of the marker in the Sequence file about the marker.</p>
+</li>
+</ul>
+<p>Any questions, feel free to contact via <a href="mailto:holibut@gmail.com">email</a>, thank you very much to have interest in this tool.</p>
 
         
           <div class="blog-tags">
@@ -356,7 +415,7 @@
                   <ul>
                 
                 
-                    <li><a href="/post/input-file-format/">AMGT-TS input file format</a></li>
+                    <li><a href="/post/amgt-ts/">AMGT-TS</a></li>
                 
               </ul>
 
@@ -368,9 +427,13 @@
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://plantdna.github.io/post/input-file-format/" data-toggle="tooltip" data-placement="top" title="AMGT-TS input file format">&larr; Previous Post</a>
+              <a href="https://plantdna.github.io/post/command-line/" data-toggle="tooltip" data-placement="top" title="Command line version">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://plantdna.github.io/post/amgt-ts/" data-toggle="tooltip" data-placement="top" title="AMGT-TS">Next Post &rarr;</a>
+            </li>
           
         </ul>
       
