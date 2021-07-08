@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on System Manuals</title>
+    <link>https://plantdna.github.io/post/</link>
+    <description>Recent content in Posts on System Manuals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Maize Research Center)</managingEditor>
+    <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
+    <lastBuildDate>Thu, 08 Jul 2021 10:08:10 +0800</lastBuildDate><atom:link href="https://plantdna.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMGT-TS</title>
+      <link>https://plantdna.github.io/post/amgt-ts/</link>
+      <pubDate>Thu, 08 Jul 2021 10:08:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/post/amgt-ts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal version</title>
+      <link>https://plantdna.github.io/post/terminal/</link>
+      <pubDate>Thu, 08 Jul 2021 08:39:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/post/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONLINE version</title>
+      <link>https://plantdna.github.io/post/online/</link>
+      <pubDate>Wed, 15 Jul 2020 22:39:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/post/online/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

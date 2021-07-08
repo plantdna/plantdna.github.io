@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Manuals</title>
+    <link>https://plantdna.github.io/zh-cn/</link>
+    <description>Recent content on System Manuals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Maize Research Center)</managingEditor>
+    <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
+    <lastBuildDate>Wed, 15 Jul 2020 22:39:10 +0800</lastBuildDate><atom:link href="https://plantdna.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMGT-TS</title>
+      <link>https://plantdna.github.io/zh-cn/post/amgt-ts/</link>
+      <pubDate>Wed, 15 Jul 2020 22:39:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/zh-cn/post/amgt-ts/</guid>
+      <description>&lt;p&gt;AMGT-TS 使用说明书&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于我们</title>
+      <link>https://plantdna.github.io/zh-cn/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/zh-cn/page/about/</guid>
+      <description>北京市农林科学院玉米研究中心</description>
+    </item>
+    
+  </channel>
+</rss>

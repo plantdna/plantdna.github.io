@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/tags/amgt-ts/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/tags/amgt-ts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/tags/amgt-ts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/post/amgt-ts/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/post/amgt-ts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/post/amgt-ts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/post/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/tags/</loc>
+    <lastmod>2020-07-15T22:39:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/page/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/page/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plantdna.github.io/zh-cn/page/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plantdna.github.io/page/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://plantdna.github.io/zh-cn/page/about/"
+                />
+  </url>
+  
+</urlset>

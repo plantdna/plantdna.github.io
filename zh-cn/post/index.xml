@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on System Manuals</title>
+    <link>https://plantdna.github.io/zh-cn/post/</link>
+    <description>Recent content in Posts on System Manuals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Maize Research Center)</managingEditor>
+    <webMaster>youremail@domain.com (Maize Research Center)</webMaster>
+    <lastBuildDate>Wed, 15 Jul 2020 22:39:10 +0800</lastBuildDate><atom:link href="https://plantdna.github.io/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMGT-TS</title>
+      <link>https://plantdna.github.io/zh-cn/post/amgt-ts/</link>
+      <pubDate>Wed, 15 Jul 2020 22:39:10 +0800</pubDate>
+      <author>youremail@domain.com (Maize Research Center)</author>
+      <guid>https://plantdna.github.io/zh-cn/post/amgt-ts/</guid>
+      <description>&lt;p&gt;AMGT-TS 使用说明书&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
