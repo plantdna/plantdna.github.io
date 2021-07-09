@@ -59,7 +59,7 @@
   "headline": "AMGT-TS input file format",
   "description" : "",
   "inLanguage" : "en",
-  "wordCount":  332 ,
+  "wordCount":  330 ,
   "datePublished" : "2021-07-08T10:08:10",
   "dateModified" : "2021-07-08T10:08:10",
   "image" : "https:\/\/plantdna.github.io\/img\/avatar-icon.png",
@@ -272,7 +272,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;332&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;330&nbsp;words
   
   
   
@@ -311,7 +311,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;332&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;330&nbsp;words
   
   
   
@@ -334,12 +334,12 @@
       <article role="main" class="blog-post">
         <h1 id="input-file-format">Input file format</h1>
 <h2 id="sequencing-raw-data-file">Sequencing raw data file</h2>
-<p>The tool needs two type of input: one is the FASTQ file, the other is the information files of the markers. Information about FASTQ file type can be found on <a href="https://sapac.support.illumina.com/bulletins/2016/04/fastq-files-explained.html">illumina</a>, or on <a href="https://en.wikipedia.org/wiki/FASTQ_format">wikipedia</a>.</p>
+<p>The tool needs two type of input: one is the FASTQ file, the other is the information files of the loci. Information about FASTQ file type can be found on <a href="https://sapac.support.illumina.com/bulletins/2016/04/fastq-files-explained.html">illumina</a>, or on <a href="https://en.wikipedia.org/wiki/FASTQ_format">wikipedia</a>.</p>
 <p><a href="/data/sample15.fq">Sequencing raw data file example</a></p>
-<h2 id="information-files-of-the-markers">Information files of the markers</h2>
-<p>There are two files for the markers:</p>
+<h2 id="information-files-of-the-loci">Information files of the loci</h2>
+<p>There are two files for the loci:</p>
 <ol>
-<li>Sequence file about the markers, <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.amplicon.fa">example on github</a> as:</li>
+<li>Sequence file about the loci, <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.amplicon.fa">example on github</a> as:</li>
 </ol>
 <blockquote>
 <p>s258878
@@ -347,9 +347,9 @@ CGGGCTGTTACTGTGACTCTGTCAGCTGGCTTTCGATTCTGATAAATGAAATAGGGAGATCTGGTGCAGAATCACTTCGA
 s282049
 TATTCTTCCGGAGGAGGGAGAGACCGATCATGGGTCAGCGTCACCATGGTTGGAACAAAGTCCCCGGATTGGATTGGATTGGATCTCAGTATACATGAGACATGCATGAGAAGCCCCCCCCTACCCCTTTTTTCTTCTTTTTTTTTCTTTTTCACTACTACTACTAGTATTTCTCTTTTTTTTCTAGCTTGTTTTTCACCTTTACTTTCTTTGGACAAAGAGGGGGAAAAAGAAGCAACTTCCTTGAAGGCGAAGGTAGGTATAGTAGTAATTATCAATAGTGGTGGGCATAAGACATGAtggtggtggtggtggTTCATGGGGTTTATAGTAAGGAGTAGCTCAAGAAGGGTGGCTCTCATGGCTCCCCCCTTCTTGTTGCTCCACAATGTGATGATGGTATGGAGGTGGCATGGTAGAAAAGCTTGGTGAATCTCAATGTGCTTTCGAGTGCCGTGTCTGTCCCTAGTGGAATGGAATGTCTCTGGTGTCCCCCCGTTCATTTTTTTTAATCTTTATGGCTTTCTGCATGCTCATCGGATCACCAGATTAAAATTTAGAAGTTGAATTTTAGGTTAGACTTTGTATGTTCAAAGAGCACCCGATAAAAATCTA</p>
 </blockquote>
-<p>This is in fact a FASTA file format(<a href="https://en.wikipedia.org/wiki/FASTA_format),">https://en.wikipedia.org/wiki/FASTA_format),</a> each sequence correspond a marker. The SSR region in the sequence marks as lower case bases, and blanks are marker as upper case bases.</p>
-<ol start="2">
-<li>Stats information about the markers, example as <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:">https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:</a></li>
+<p>This is in fact a FASTA file format(<a href="https://en.wikipedia.org/wiki/FASTA_format),">https://en.wikipedia.org/wiki/FASTA_format),</a> each sequence correspond a locus. The SSR region in the sequence marks as lower case bases, and flanks are upper case bases.</p>
+<ol>
+<li>Stats information about the loci, example as <a href="https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:">https://github.com/plantdna/amgt-ts/blob/master/ref/sites.motif.info.stats:</a></li>
 </ol>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">#ID SSR.No Motif_len Motif Repeat_times Start End Repeat_len Seq_len
 s258878 1 3 GCT 5 301 315 15 615
@@ -358,11 +358,11 @@ s282049 1 3 TGG 5 301 315 15 615
 <ul>
 <li>
 <p>2.1 #ID
-The marker id, same as the marker&rsquo;s name in the Sequence file of the markers.</p>
+The locus id, same as the locus&rsquo;s name in the Sequence file of the loci.</p>
 </li>
 <li>
 <p>2.2 SSR.No
-The motif index of the marker. We support multi-motif in one SSR region. But for the common use case, the value of this column is always 1.</p>
+The motif index of the locus. We support multi-motif in one SSR region. But for the common use case, the value of this column is always 1.</p>
 </li>
 <li>
 <p>2.3 Motif_len
@@ -370,19 +370,19 @@ The bases count of the motif.</p>
 </li>
 <li>
 <p>2.4 Motif
-Thre repeat unit of the marker.</p>
+Thre repeat unit of the locus.</p>
 </li>
 <li>
 <p>2.5 Repeat_times
-The repeat times of the motif in this marker.</p>
+The repeat times of the motif in this locus.</p>
 </li>
 <li>
 <p>2.6 Start
-The start base position of the SSR region in the sequence of the marker. From the first base to position Start -1, is the left flank of the marker.</p>
+The start base position of the SSR region in the sequence of the locus. From the first base to position Start -1, is the left flank of the locus.</p>
 </li>
 <li>
 <p>2.7 End
-The end base position of the SSR region in the sequence of the marker. From End +1 to the last bases of the marker, if the right flank of the marker.</p>
+The end base position of the SSR region in the sequence of the locus. From End +1 to the last bases of the locus, if the right flank of the locus.</p>
 </li>
 <li>
 <p>2.8 Repeat_len
@@ -390,7 +390,7 @@ The result of column #3 (Motif_len) times column #5 (Repeat_times)</p>
 </li>
 <li>
 <p>2.9 Seq_len
-The length of the sequence, is the bases count of the marker in the Sequence file about the marker.</p>
+The length of the sequence, is the bases count of the locus in the Sequence file about the locus.</p>
 </li>
 </ul>
 <p>Any questions, feel free to contact via <a href="mailto:holibut@gmail.com">email</a>, thank you very much to have interest in this tool.</p>
